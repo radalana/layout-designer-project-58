@@ -92,6 +92,9 @@ h2{
 h3 {
     font-size: 34px;
 }
+a {
+    text-decoration: none;
+}
 
 .light {
     background-color: var(--light);
