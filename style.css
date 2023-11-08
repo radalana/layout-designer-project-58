@@ -97,13 +97,11 @@ h3 {
 
 .title-black {
     color: var(--dark);
-    
     display: block;
 }
 
 .title-white {
     color: var(--white);
-    font: inherit;
     display: block;
 }
 a {
