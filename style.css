@@ -310,6 +310,48 @@ p {
     color: var(--white);
 }
 
+.newsletter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--basic-dark);
+    padding: 50px;
+}
+
+#email{
+    box-sizing: border-box;
+    border: none;
+    height: 50px;
+    padding: 15px;
+}
+.newsletter label, div, a{
+    color: var(--white);
+}
+.agreement *{
+    font-size: 12px;
+}
+.send {
+    position: relative;
+    border: none;
+    height: 50px;
+    width: 70px;
+    background-color: var(--basic);
+    
+}
+.send::before {
+    position: relative;
+    z-index: 1;
+    left: 50%;
+    background-image: url("images/send.svg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--white);
+    content: "";
+    border: none;
+    padding: 0;
+    
+}
 /** убрать класс орнажевый так как то основной
 что.то сделать с заголовками, цифрами на корточка
 и текст везде
